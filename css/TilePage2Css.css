@@ -1,0 +1,433 @@
+body
+{
+	max-width:2000px;
+	overflow-x: hidden;
+}
+.cart{
+	position: relative;
+	top:10px;
+}
+
+.lgin
+{
+	margin-left: 0px;
+	/*padding: 5px 5px 5px 5px;*/
+	
+}
+
+#Home
+{
+	margin-top: 100px;
+}
+
+.circle{
+	border-radius: 50%;
+	margin: 0.15em;
+	}
+.cart2
+{
+	background: #4099FF;
+	color: black;
+    padding: 0.5em 1.0em;
+}	
+.fa-twitter{
+	margin-left: 20px;
+	background: #4099FF;
+	color: #FFFFFF;
+    padding: 0.8em 1.0em;
+	}
+.fa-facebook{
+	margin-left: 20px;
+	background: #3B5998;
+	color: #FFFFFF;
+    padding: 0.8em 1.0em;
+	}
+.fa-twitter:hover
+{
+	padding: 1.0em 1.5em;
+	background:black;
+}
+.fa-facebook:hover
+{
+	padding: 1.0em 1.5em;
+	background:black;
+}
+.head
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;
+	background-image: url("../Tiles/tilescalculator2.jpg");
+	background-size: cover;
+}
+.head7
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;
+	background-image: url("../Tiles/outdoor.jpg");
+	background-size: cover;
+}
+.head5
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;
+	background-image: url("../Tiles/kitchen.jpg");
+	background-size: cover;
+}
+.head2
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;
+	background-image: url("../Tiles/bedroom.jpg");
+	background-size: cover;
+}
+.head3
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;
+	background-image: url("../Tiles/bathroom.jpg");
+	background-size: cover;
+}
+.head4
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;
+	background-image: url("../Tiles/commercial.jpg");
+	background-size: cover;
+}
+.head6
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;
+	background-image: url("../Tiles/livingroom.jpg");
+	background-size: cover;
+}
+.head8
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;
+	background-image: url("../Tiles/floor.jpg");
+	background-size: cover;
+}
+.head9
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;
+	background-image: url("../Tiles/wall.jpg");
+	background-size: cover;
+}
+.head10
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;
+	background-image: url("../Tiles/eclat.jpg");
+	background-size: cover;
+}
+.head11
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;
+	background-image: url("../Tiles/glossy.jpg");
+	background-size: cover;
+}
+.head12
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;
+	background-image: url("../Tiles/matte.jpg");
+	background-size: cover;
+}
+.head13
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;
+	background-image: url("../Tiles/glazedv.jpg");
+	background-size: cover;
+}
+.head14
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;
+	background-image: url("../Tiles/velevation.jpg");
+	background-size: cover;
+}
+.head15
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;
+	background-image: url("../Tiles/vdch.jpg");
+	background-size: cover;
+}
+.head16
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;
+	background-image: url("../Tiles/vheavy.jpg");
+	background-size: cover;
+}
+.head17
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;
+	background-image: url("../Tiles/vsst.jpg");
+	background-size: cover;
+}
+.head18
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;
+	background-image: url("../Tiles/lapato.jpg");
+	background-size: cover;
+}
+.head19
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;
+	background-image: url("../Tiles/rustic.jpg");
+	background-size: cover;
+}
+.head20
+{
+	height: 400px;
+	width: 2000px;
+	margin-top: 100px;	
+	background-image: url("../Tiles/ceramic.jpg");
+	background-size: cover;
+}
+.sbutton{
+	position: relative;
+	left: 500px;
+}
+
+.wall
+{
+	position: relative;
+	top: 330px;
+	left: 150px;
+	font-size: 60px;
+	color: white;
+	font-weight: bold;
+}
+.search
+{
+	border-radius: 20px;
+	background-color: white;
+}
+.searchFrm
+{
+	position: relative;
+	bottom: 10px;
+	margin-left:650px;
+	align-items: right;
+}
+.search_button
+{
+	border-radius: 20px;
+	background-color: lightblue;
+}
+.size1
+{
+	width: 2000px;
+	height: 150px;
+	text-align: center;
+	position: relative;
+	right: 250px;
+	bottom: 30px;
+	background-color: rgb(240,240,240);
+}
+.size2
+{
+	width: 2000px;
+	height: 80px;
+	text-align: center;
+	position: relative;
+	right: 250px;
+	bottom: 80px;
+/*	background-color: rgb(240,240,240);*/
+}
+.tiles
+{
+	margin-top: 5px;
+	position: relative;
+	bottom: 130px;
+	background-color: rgb(240,240,240);
+}
+
+pre{
+  padding-left:10px;
+  font-size:14px;
+}
+.flipImage{ 
+  width:300px; 
+  height:300px; 
+  margin:50px; 
+  float:left; }
+
+.flipImage img
+{
+	width:300px; 
+  	height:300px; 
+}
+.flipImage > .ImageFront{
+	position:absolute;
+	transform: perspective( 600px ) rotateY( 0deg );
+	background:#FC0; 
+    width:300px; 
+    height:300px; 
+    border-radius: 7px;
+	backface-visibility: hidden;
+	transition: transform .5s linear 0s;
+}
+
+.flipImage > .ImageBack{
+	position:absolute;
+	transform: perspective( 600px ) rotateY( 180deg );
+	background-color:#BFC9CA ;
+    width:300px; 
+    height:300px; 
+    border-radius: 7px;
+	backface-visibility: hidden;
+	transition: transform .5s linear 0s;
+}
+
+.flipImage:hover > .ImageFront{
+	transform: perspective( 600px ) rotateY( -180deg );
+}
+
+.flipImage:hover > .ImageBack{
+	transform: perspective( 600px ) rotateY( 0deg );
+}
+.images
+{
+	position: relative;
+	bottom: 300px;
+}
+.clear{
+  clear:both;
+}
+.info
+{
+	height: 100px;
+	width: 300px;
+	background-color: blue;
+}
+.frm
+{
+	margin-top: 30px;
+	height: 710px;
+	width: 700px;
+	position: relative;
+	bottom: 100px;
+	align-content: left;
+	background-color: rgb(240,240,240);
+}
+.lbl
+{
+	width:250px;
+}
+#tiletype
+{
+	width: 250px;
+}
+#unit
+{
+	width:250px;
+	align-items: left;
+}
+#area
+{
+	width:250px;
+}
+#height
+{
+	width: 250px;
+}
+#width
+{
+	width: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+
+.searchFrm
+{
+	position: relative;
+	bottom: 10px;
+	margin-left:200px;
+	align-items: right;
+}
+ /*Tiles Calculator*/
+.wall
+{
+	position: relative;
+	top: 350px;
+	left: 50px;
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+}
+.size1
+{
+	width: auto;
+	height: 200px;
+	text-align: center;
+	position: relative;
+	right: 10px;
+	bottom: 40px;
+	font-size: 30px;
+}
+.size2
+{
+	width: auto;
+	height: 50px;
+	text-align: center;
+	position: relative;
+	right: 10px;
+	bottom: 80px;
+	font-size: 30px;
+}
+.frm
+{
+	height: 710px;
+	width: 400px;
+	position: relative;
+	bottom: 100px;
+	background-color: rgb(240,240,240);
+}
+
+ /*Tiles Page 2*/
+
+.flipImage{ 
+  align-items: center;
+  width:auto; 
+  height:300px; 
+  margin:0px; 
+  margin-top: 60px;
+  float:center; 
+}
+.cart{
+	position: relative;
+	top:15px;
+	margin-bottom:200px;
+}
+
+
+}

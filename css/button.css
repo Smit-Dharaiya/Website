@@ -1,0 +1,108 @@
+body{
+background-color: #76838f;
+}
+.main{
+    /*background-color: #76838f;*/
+    margin-top: 100px;
+    margin-left: 0px;
+    height: 600px;
+}
+.btn-3d {
+    position: relative;
+    display: inline-block;
+    font-size: 22px;
+    padding: 20px 60px;
+    color: white;
+    margin: 20px 10px 10px;
+    border-radius: 6px;
+    text-align: center;
+    transition: top .01s linear;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    /*height: 10000px;*/
+    width: 250px;
+    height: 100px;
+}
+.btn-3d.blue:hover   {background-color: #247cf0;transition: 0.5s}
+
+.btn-3d:active {
+    top: 9px;
+}
+.btn-3d.blue:hover{
+    /*background-color: #ff666b;*/
+}
+.btn-3d.blue {
+    background-color: #6DA2D9;
+    box-shadow: 0 0 0 1px #6698cb inset,
+                0 0 0 2px rgba(255,255,255,0.15) inset,
+                0 8px 0 0 rgba(110, 164, 219, .7),
+                0 8px 0 1px rgba(0,0,0,.4),
+                0 8px 8px 1px rgba(0,0,0,0.5);
+}
+.btn-3d.blue:active {
+    box-shadow: 0 0 0 1px #6191C2 inset,
+                0 0 0 2px rgba(255,255,255,0.15) inset,
+                0 0 0 1px rgba(0,0,0,0.4);
+}
+.space{
+    margin-left: 30px;
+    float: left;
+}
+input,select{
+    border: 2px solid #ddd;
+    color: #878787;
+}
+.heading{
+     color: black;
+     font-weight:bold;
+     font-size: 30px;
+     margin-left:70px;
+     font-family:Open Sans, sans-serif;
+}
+.add-category{
+     color: rgb(128, 128, 128);
+     font-weight:bold;
+}
+.add-finish{
+     color: rgb(128, 128, 128);
+     font-weight:bold;
+}
+.remove-category{
+     color: rgb(128, 128, 128);
+     font-weight:bold;
+}
+.remove-finish{
+     color: rgb(128, 128, 128);
+     font-weight:bold;
+}
+.add-user{
+     color: rgb(128, 128, 128);
+     font-weight:bold;
+}
+.remove-tile{
+     color: rgb(128, 128, 128);
+     font-weight:bold;
+}
+.change-contact-info{
+     color: rgb(128, 128, 128);
+     font-weight:bold;
+}
+#dname{
+    margin-left: 71px;
+}
+#add{
+    margin-right: 220px;
+}
+#add2{
+    margin-left: 160px;
+    /*margin-top: 10px;*/
+    position: relative;
+    bottom: 35px;
+}
+.add-dealer{
+      color: rgb(128, 128, 128);
+     font-weight:bold;
+}
+.change-credentials{
+     color: rgb(128, 128, 128);
+     font-weight:bold;
+}

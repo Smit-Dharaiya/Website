@@ -1,0 +1,59 @@
+.dealer{
+background-color: silver;
+height: 50px;
+position: relative;
+bottom: 50px;
+}
+.dealer1{
+float: left;
+background-color: silver;
+font-size: 20px;
+}
+.wall
+{
+	position: relative;
+	/*top: 350px;*/
+	bottom: 90px;
+	left: 80px;
+	font-size: 60px;
+	color: white;
+	font-weight: bold;
+}
+.search{
+float: left;
+margin-top: 10px;
+margin-left: 40px;
+}
+.headd{
+background-image: url("../Tiles/dealers.jpg");
+height: 400px;
+width: 2000px;
+background-size: cover;
+}
+.dealer1{
+margin-left: 10px;
+margin-top: 10px;
+}
+.opt
+{
+	font-size: 12px;
+}
+.add{	
+position: relative;
+margin:50px;
+background-color: rgba(255,255,100,0.5);
+height: 250px;
+float: left;
+border: 1px black solid;
+transition: 0.5s background-color;
+}
+.add:hover {
+background-color: lightblue;
+size: cover;
+color: white; 
+}
+.dname{
+font-size: 20px;
+font-weight: bold;
+font-family: "Open Sans", sans-serif;
+}

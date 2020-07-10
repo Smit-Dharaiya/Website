@@ -1,0 +1,352 @@
+body
+{
+	overflow-x: hidden;
+}
+#demo
+{
+	max-height: 100%;
+	max-width: 100%;
+
+}
+
+.lgin
+{
+	margin-left: 0px;
+	/*padding: 5px 5px 5px 5px;*/
+	
+}
+#Home
+{
+	margin-top: 100px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+   
+    padding:5px 5px 5px 5px;
+    outline: 2px solid white;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.carousel-caption h1,h3,h5
+{
+	position: relative;
+	bottom: 20px;
+}
+
+.circle{
+	border-radius: 50%;
+	margin: 0.15em;
+	}
+	
+.fa-twitter{
+	margin-left: 20px;
+	background: #4099FF;
+	color: #FFFFFF;
+    padding: 0.8em 1.0em;
+	}
+.fa-facebook{
+	margin-left: 20px;
+	background: #3B5998;
+	color: #FFFFFF;
+    padding: 0.8em 1.0em;
+	}
+.fa-twitter:hover
+{
+	padding: 1.0em 1.5em;
+	background:black;
+}
+.fa-facebook:hover
+{
+	padding: 1.0em 1.5em;
+	background:black;
+}
+
+
+.img-wrapper img
+{
+	height: 300px;
+	width: 350px;
+	position: relative;
+	bottom: 50px;
+	margin-bottom: 20px;
+}
+.hrrr1{
+position: relative;
+top:50px;
+background-color: rgb(240,240,240);
+}
+.hrstyle1{
+border: none;
+border-top: medium double #333;
+color: #333;
+text-align: center;
+ font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+}
+.hrstyle1:after {
+content: "BY SPACE";
+position: relative;
+top: -0.7em;
+font-size: 1.5em;
+background: rgb(240,240,240);
+}
+.hrrr2{
+position: relative;
+/*top:50px;*/
+background-color: rgb(240,240,240);
+}
+.hrstyle2{
+border: none;
+border-top: medium double #333;
+color: #333;
+text-align: center;
+ font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+}
+.hrstyle2:after {
+content: "HAPPY TO HELP";
+position: relative;
+top: -0.7em;
+font-size: 1.5em;
+background: rgb(240,240,240);
+}
+.div1
+{
+	float:left;
+}
+.div2
+{
+	float: left;
+}
+.animation{
+	-webkit-animation-duration: 0.3s;
+	animation-duration: 0.5s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+.floating{
+	animation-name: floating;
+	-webkit-animation-name: floating;
+
+	animation-duration: 2s;	
+	-webkit-animation-duration: 2s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+	0% {
+		transform: translateY(0%);	
+	}
+	50% {
+		transform: translateY(1%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
+}
+.work
+{
+	background-color: rgb(240,240,240);
+}
+figcaption
+{
+	font-size: 23px;
+	font-weight: bold;
+	color: white;
+	padding: 5px 5px 5px 5px;
+	background-color: black;
+	opacity: 0.5;
+	width: 200px;
+	position: relative;
+	bottom:715px;
+	align-content: center;
+	
+}
+
+.container {
+  position: relative;
+  width: 550px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+  right: 0;
+  background-color:black;
+  opacity: 0.5;
+  overflow: hidden;
+  width: 50%;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 550px;
+}
+.container:hover .text {
+
+  position: relative;
+  font-size: 30px;
+  padding: 10px 10px 10px 10px;
+  opacity: 2.0;
+  width: 60%;
+  text-align: center;
+}
+
+.text {
+  padding: 0px;
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  position: absolute;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  transition: .5s ease;
+}
+.lt
+{
+  margin-top: 50px;
+  margin-right: 100px;
+  float: left;
+}
+
+@media only screen and (max-width: 768px) {
+ .dropdown:hover .dropdown-menu
+ {
+ 	display: block;
+
+
+ }
+/* .logo{
+ 	position: relative;
+ 	bottom: 10px;
+ }
+ .dropdown:hover .dropdown-menu
+ {
+ 	display: block;
+ }
+ .navbar-nav{
+ 	width: 100%;
+ 	background-color: black;
+ }
+ .navbar-nav  a{
+ 	color:red;
+ }
+ .d2 li{
+margin-top: 5px;
+list-style-type: none;
+margin-left: -20px; 
+}
+ .d2 li a{
+  margin-top: 5px;
+font-size: 10px;
+border-bottom: none;
+font-weight: normal;
+color:black;
+ } 
+ .navbar-nav a{
+font-size: 20px;
+}
+ .main-ul li a{
+ 	font-size: 15px;
+ 	color: black;
+ }
+ .dropdown-menu1 li a{
+
+ 	font-size: 10px;
+ 	margin-left:20px;
+ 	list-style-type: none;
+ }
+ .dropdown-menu1{
+ 	height: 250px;
+ 	width: 500px;
+ }
+ .more {
+ 	width: 500px;
+ }
+ .drop1{
+ 	margin: 0px;
+display: block;
+/*font-size: 10px;*/
+}
+.d2 li a{
+margin-left: 0px;
+}
+
+.drop2{
+display: block;
+margin: 0px;
+}
+.drop3{
+display: block;
+margin: 0px;
+}
+.drop4{
+display: block;
+margin-top: 0px;
+margin: 0px;
+}
+*/
+
+
+ /*Tiles Calculator*/
+.wall
+{
+	position: relative;
+	top: 350px;
+	left: 50px;
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+}
+.size1
+{
+	width: auto;
+	height: 200px;
+	text-align: center;
+	position: relative;
+	right: 10px;
+	bottom: 40px;
+	font-size: 30px;
+}
+.size2
+{
+	width: auto;
+	height: 50px;
+	text-align: center;
+	position: relative;
+	right: 10px;
+	bottom: 80px;
+	font-size: 30px;
+}
+.frm
+{
+	height: 710px;
+	width: 400px;
+	position: relative;
+	bottom: 100px;
+	background-color: rgb(240,240,240);
+}
+
+ /*Tiles Page 2*/
+
+.flipImage{ 
+  align-items: center;
+  width:auto; 
+  height:300px; 
+  margin:0px; 
+  margin-top: 20px;
+  float:center; 
+}
+
+}
+

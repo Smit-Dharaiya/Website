@@ -1,0 +1,89 @@
+body{
+	background-color: rgb(240,240,240);
+}
+.heading
+{
+	margin-top: 150px;
+	height:100px;
+}
+
+.headd{
+background-image: url("../Tiles/dealers.jpg");
+height: 400px;
+width: 2000px;
+background-size: cover;
+}
+.hrrr1{
+
+background-color: rgb(240,240,240);
+}
+.hrstyle1{
+border: none;
+border-top: medium double #333;
+color: #333;
+text-align: center;
+ font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+}
+.hrstyle1:after {
+content: "ANNALYSE USER'S VIEWS";
+position: relative;
+top: -0.7em;
+font-size: 1.5em;
+background-color: rgb(240,240,240);
+}
+.hrstyle2{
+border: none;
+border-top: medium double #333;
+color: #333;
+text-align: center;
+ font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+}
+.hrstyle2:after {
+content: "GET CLOSER TO YOUR CUSTOMERS";
+position: relative;
+top: -0.7em;
+font-size: 1.5em;
+background-color: rgb(240,240,240);
+
+}
+.wall
+{
+	position: relative;
+	/*top: 350px;*/
+	bottom: 70px;
+	left: 80px;
+	font-size: 60px;
+	color: white;
+	font-weight: bold;
+}
+.feedback1
+{
+	float:left;
+	background-color: rgba(255,255,100,0.5);
+	height: 250px;
+	max-width: 600px;
+	margin-left: 80px;
+	margin-top: 50px;
+}
+.feedback1:hover {
+background-color: lightblue;
+size: cover;
+color: white; 
+}
+
+
+@media only screen and (max-width: 768px) {
+
+.feedback1
+{
+	float:left;
+	background-color: rgba(255,255,100,0.7);
+	height: 250px;
+	width:auto;
+	margin-left: 0px;
+	margin-top: 50px;
+}
+
+}

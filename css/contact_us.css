@@ -1,0 +1,96 @@
+.headdd{
+	background-image: url("../Tiles/contact_us.jpg");
+	height: 400px;
+    width: 2000px;
+    background-size: cover;
+    margin-top: 100px;
+}
+.touch{
+    position: relative;
+	font-size: 30px;
+	/*margin-top: 20px;*/
+	bottom: 50px;
+	color: #3f3f3f;
+	font-weight: bold;
+	margin-left:100px;
+	font-family: 'Open Sans';
+	/*bottom: 50px;*/
+	/*font-family: "Russo One";*/
+	/*margin-top: 150px;*/
+}
+.touch2{
+	font-size: 20px;
+	position: relative;
+	color: #202020;
+	margin-left: 110px;
+	font-weight: 100;
+	/*margin-top: 40px;*/
+	bottom: 70px;
+}
+.main{
+	margin-left: 50px;
+	/*margin: 30px;*/
+}
+.hauuuu{
+	position: relative;
+	bottom: 50px;
+}
+.floatt{
+	float: left;
+	/*margin-left: 40px;*/
+}
+textarea {
+    border: 2px solid #ddd;
+    color: #878787;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0 15px;
+    /*width: 95%;*/
+    /*margin-bottom: 18px;*/
+}
+input{
+	border: 2px solid #ddd;
+    color: #878787;
+ }
+ select{
+ 	border: 2px solid #ddd;
+    color: #878787;
+ }
+ button{
+ 	color: white;
+ 	/*border: 2px solid black;*/
+ 	background-color: #3f3f3f;
+ 	width: 100px;
+ }
+ button:hover{
+ 	background-color:rgb(149, 170, 64);
+ }
+ .tech{
+ 	width: 400px;
+ 	font-size: 15px;
+ 	font-weight: 600;
+ 	color: rgb(128, 128, 128);
+ 	box-sizing: border-box;
+ 	/*display: block;*/
+ 	border: 1px solid silver;
+ 	padding: 5px;
+ 	margin: 5px;
+ 	margin-left: 20px;
+ }
+ .btn{
+ 	position: relative;
+ 	top:105px;
+ 	left: 150px;
+ }
+.wall
+{
+	position: relative;
+	/*top: 250px;*/
+	bottom: 80px;
+	left: 80px;
+	font-size: 60px;
+	color: white;
+	font-weight: bold;
+}
+

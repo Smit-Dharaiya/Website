@@ -1,0 +1,141 @@
+.aboutus{
+	width: 100%;
+	bottom: 50px;
+}
+.ccare{
+	float: left;
+	height: 110px;
+	margin-left: 0px;
+	position: relative;
+	right: 15px;
+	bottom: 24px;
+	width: 2000px;
+
+}
+.email{
+	float: left;
+	height: 110px;
+	bottom: 24px;
+
+}
+.contus{
+	    float: left;
+		height: 110px;
+		bottom: 24px;
+		position: relative;
+		left: 15px;
+}
+
+.final{
+	margin-top: 35px;
+	width: 100%;
+	background-color:black;
+	height: 400px;
+}
+.corporate{
+	float: left;
+	color: white;
+}
+.corporate li {
+	margin-top: 10px;
+	color: white;
+}
+.pro{
+	float: left;
+	color: white;
+}
+.pro li{
+	margin-top: 10px;
+	color: white;
+}
+.need{
+	color: white;
+	float: left;
+}
+.need li{
+	color: white;
+	margin-top: 10px;
+}
+.quick{
+	color: white;
+	float: left;
+}
+.quick li{
+	margin-top: 10px;
+	color: white;
+
+}
+.over{
+	color: red;
+	bottom: 0px;
+	float: right;
+	height: 90px;
+}
+@media only screen and (max-width: 768px) {
+
+	.ccare{ 
+	float: left;
+	height: 110px;
+	margin-left: 0px;
+	position: relative;
+	right: 0px;
+	width: cover;
+
+}
+.email{
+	float: left;
+	height: 110px;
+}
+.contus{
+	    float: left;
+		height: 110px;
+		bottom: 24px;
+		position: relative;
+		left: 0px;
+}
+.final{
+	margin-top: 270px;
+	height:1100px;
+	width:auto;
+	background-color: #202020;
+}
+.corporate{
+	float: left;
+	width: auto;
+}
+.corporate li {
+	margin-top: 10px;
+	color: white;
+}
+.pro{
+	width: auto;
+	/*background-color: #202020;*/
+}
+.pro li {
+	margin-top: 10px;
+	color: white;
+}
+.need{
+	width:auto;
+}
+.need li{
+	color: white;
+	margin-top: 10px;
+}
+.quick{
+	width: auto;
+
+}
+.quick li{
+	margin-top: 10px;
+	color: white;
+
+}
+.over{
+	color: red;
+	bottom: 0px;
+	float: left;
+	height: 90px;
+}
+
+}
